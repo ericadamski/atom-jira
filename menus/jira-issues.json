@@ -1,0 +1,25 @@
+{
+  "context-menu": {
+    "atom-text-editor": []
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "JIRA",
+          "submenu": [
+            {
+              "label": "whoami",
+              "command": "jira-issues:whoami"
+            },
+            {
+              "label": "Create Issue",
+              "command": "jira-issues:create"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "jira-issues",
+  "main": "./lib/jira-issues",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "jira-issues:whoami",
+    "atom-workspace": "jira-issues:create"
+  },
+  "repository": "https://github.com/atom/jira-issues",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "immutable": "4.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "unfetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^19.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^3.5.0",
+    "jest-cli": "^19.0.2",
+    "nock": "^9.0.11"
+  }
+}
