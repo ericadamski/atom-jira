@@ -143,6 +143,13 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
+atom-select-list@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/atom-select-list/-/atom-select-list-0.2.0.tgz#a4b6d919238c80cc5cda9951154c41b999002dcf"
+  dependencies:
+    etch "^0.9.5"
+    fuzzaldrin "^2.1.0"
+
 aws-sign2@~0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.6.0.tgz#14342dd38dbcc94d0e5b87d763cd63612c0e794f"
@@ -1074,6 +1081,14 @@ esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
 
+etch@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/etch/-/etch-0.12.0.tgz#b0f09962ca742e7841da95838534a64f2fde7bdb"
+
+etch@^0.9.5:
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/etch/-/etch-0.9.5.tgz#6c92b7f63000525b9797de23e3b41e109a688fbc"
+
 exec-sh@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/exec-sh/-/exec-sh-0.2.0.tgz#14f75de3f20d286ef933099b2ce50a90359cef10"
@@ -1209,6 +1224,10 @@ fstream@^1.0.0, fstream@^1.0.10, fstream@^1.0.2:
     inherits "~2.0.0"
     mkdirp ">=0.5 0"
     rimraf "2"
+
+fuzzaldrin@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/fuzzaldrin/-/fuzzaldrin-2.1.0.tgz#90204c3e2fdaa6941bb28d16645d418063a90e9b"
 
 gauge@~2.7.1:
   version "2.7.3"

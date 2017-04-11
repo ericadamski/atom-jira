@@ -8,7 +8,6 @@
   },
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "jira-issues:whoami",
     "atom-workspace": "jira-issues:create"
   },
   "repository": "https://github.com/atom/jira-issues",
@@ -17,6 +16,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-select-list": "^0.2.0",
+    "etch": "^0.12.0",
     "immutable": "4.0.0",
     "isomorphic-fetch": "^2.2.1",
     "unfetch": "^2.1.2"
